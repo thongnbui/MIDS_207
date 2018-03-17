@@ -1,0 +1,101 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1348\cocoasubrtf170
+{\fonttbl\f0\fswiss\fcharset0 ArialMT;}
+{\colortbl;\red255\green255\blue255;\red26\green26\blue26;\red16\green60\blue192;}
+\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\deftab720
+\pard\pardeftab720
+
+\f0\fs26 \cf2 \expnd0\expndtw0\kerning0
+WEEK 13\
+\
+\
+Early research focused on \'91taste\'92 domains, particularly movies, music, and books\
+\
+\
+1996 MovieLens (Minnesota).\'a0 {\field{\*\fldinst{HYPERLINK "http://en.wikipedia.org/wiki/MovieLens"}}{\fldrslt \cf3 \expnd0\expndtw0\kerning0
+\ul \ulc3 http://en.wikipedia.org/wiki/MovieLens}}\
+\'97 Very early Amazon and Netflix strongly influenced by this\
+\'97 User based CF: Find k-nearest users and use their ratings\
+\'97 2001 Item based CF: Find k nearest items to those items a user\
+prefers.\'a0 {\field{\*\fldinst{HYPERLINK "http://files.grouplens.org/papers/www10_sarwar.pdf"}}{\fldrslt \cf3 \expnd0\expndtw0\kerning0
+\ul \ulc3 http://files.grouplens.org/papers/www10_sarwar.pdf}}\
+\'97 \'97 Still most popular recommendation algorithm\
+\
+\
+2000 Pandora.\
+\'97 Content based recommendations: Manually label every song with 450 features\
+\'97 Simple item-based recommendation: user picks a song and gets similar\
+songs returned.\'a0 In recent years they have gotten more sophisticated\
+\'97 2005 Recsys starts as summer school.\'a0 Topic: Failure of Pandora!\
+\
+\
+2003 Amazon {\field{\*\fldinst{HYPERLINK "http://www.cs.umd.edu/~samir/498/Amazon-Recommendations.pdf"}}{\fldrslt \cf3 \expnd0\expndtw0\kerning0
+\ul \ulc3 http://www.cs.umd.edu/~samir/498/Amazon-Recommendations.pdf}}\
+\'97 People at time identified recommendations with Amazon\
+\'97 Used Item based CF (as in GroupLens)\
+\'97 \'97 Pointed to scalability: compute similarities between items\
+offline, usually nightly.\'a0 This is preferred as item similarities\
+change less frequently than user similarities\
+\'97 \'97 Use item similarities to recommend similar items to those a user\
+has shown preference towards\
+\'97 \'97 Item preference a weighted combination of views, ratings, cart\
+adds, and purchases\
+\'97 \'97 Added blended exponential decay to account for time\
+\'97 \'97 Item similarities can also be used in non-personalized fashion\
+(\'93users who considered this, also considered that\'85\'94)\
+\'97\'97\'a0 Not fully real-time and suffers from cold-start problem\
+\'97 Flawed problem setup: not directly optimizing sales\
+\
+2006 Netflix Prize\
+(100M rating, 500K users, 17K items)\
+\'97 \'91Simon Funk\'92 released his matrix factorization solution, which\
+supported data sparsity.\'a0 Used in Netflix (for predicted rating) today\
+\'97 \'97 Dim reduction on sparse data\
+\pard\pardeftab720
+{\field{\*\fldinst{HYPERLINK "http://sifter.org/~simon/journal/20061211.html"}}{\fldrslt \cf3 \expnd0\expndtw0\kerning0
+\ul \ulc3 http://sifter.org/~simon/journal/20061211.html}}\
+\'97 Winners\
+\'97 \'97 Bob Bell: {\field{\*\fldinst{HYPERLINK "https://vimeo.com/62347348"}}{\fldrslt \cf3 \expnd0\expndtw0\kerning0
+\ul \ulc3 https://vimeo.com/62347348}} (starts 5 minutes in)\
+\'97 \'97 Yehunda Koren: {\field{\*\fldinst{HYPERLINK "https://www.youtube.com/watch?v=YWMzgCsFIFY"}}{\fldrslt \cf3 \expnd0\expndtw0\kerning0
+\ul \ulc3 https://www.youtube.com/watch?v=YWMzgCsFIFY}}\
+\'97 \'97 Blend of 800 models in end, 150 pages written down\
+\'97 \'97 Winners didn\'92t use meta data\
+\'97 \'97 Drama at end of competition\'97other teams combined to try to beat\
+BellKor at very end.\'a0 Wasn\'92t immediately known who won\
+\'97 Why solving this problem?\'a0 It\'92s the academic setup.\
+\'97 \'97 Netflix\'92s actual problem is picking the movies you\'92ll watch now,\
+not the ones you\'92d rate highest (think about Schindler\'92s List)\
+\'97\'97\'a0 Unfortunately, competitions make the problem (and data) static\
+\'97\'97\'a0 Important to not let the tail (i.e. existing algos, problems) wag the dog\
+\
+Recent Years (Learning to Rank and Realtime)\
+\
+Netflix\
+\'97 Today it\'92s treated as a ranking problem: maximize consumption.\
+\pard\pardeftab720
+{\field{\*\fldinst{HYPERLINK "http://techblog.netflix.com/2012/06/netflix-recommendations-beyond-5-stars.html"}}{\fldrslt \cf3 \expnd0\expndtw0\kerning0
+\ul \ulc3 http://techblog.netflix.com/2012/06/netflix-recommendations-beyond-5-stars.html}}\
+{\field{\*\fldinst{HYPERLINK "http://www.infoq.com/presentations/machine-learning-netflix"}}{\fldrslt \cf3 \expnd0\expndtw0\kerning0
+\ul \ulc3 http://www.infoq.com/presentations/machine-learning-netflix}}\
+\
+EHarmony\
+{\field{\*\fldinst{HYPERLINK "https://ieondemand.com/divisions/big-data/presentations/data-science-of-love-1"}}{\fldrslt \cf3 \expnd0\expndtw0\kerning0
+\ul \ulc3 https://ieondemand.com/divisions/big-data/presentations/data-science-of-love-1}}\
+\'97 320 attributes (e.g. romantic, height, photo zoom, food preferences)\
+\'97 Vowpal Wabbit, GBM\
+\
+Prismatic\
+\'97 Topic modeling (25K+ topics) for feature extraction\
+\'97 Directly optimize likelihood to read (logistic regression)\
+\'97 Mobile influence\
+\
+LinkedIn\
+\'97 Almost every module a recommendation module\
+\'97 Heavy use of logistic regression\
+\
+Real-time Systems\
+\'97 Today most personalized recommendations today happen over email\
+\'97 \'97 E.g. Live Nation\
+\'97 Realtime technologies (E.g. Storm, Spark)\
+\'97 First session recommendations can be highly contextual}

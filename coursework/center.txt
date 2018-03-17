@@ -1,0 +1,33 @@
+Amsterdam 01		ams01
+Amsterdam 03		ams03
+Chennai			che01
+Dallas 01		dal01
+Dallas 02		dal02
+Dallas 05		dal05
+Dallas 06		dal06
+Dallas 07		dal07
+Dallas 09		dal09
+Dallas 10		dal10
+Dallas 12		dal12
+Dallas 13		dal13
+Frankfurt		fra02
+Hong Kong		hkg02
+Houston			hou02
+London			lon02
+Melbourne		mel01
+Milan			mil01
+Montreal		mon01
+Oslo			osl01
+Paris			par01
+Querétaro		mex01
+San Jose 01		sjc01
+San Jose 03		sjc03
+Sao Paulo		sao01
+Seattle			sea01
+Seoul 01		seo01
+Singapore		sng01
+Sydney			syd01
+Tokyo			tok02
+Toronto			tor01
+Washington, D.C. 01	wdc01
+Washington, D.C. 04	wdc04

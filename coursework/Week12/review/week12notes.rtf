@@ -1,0 +1,147 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1348\cocoasubrtf110
+{\fonttbl\f0\fswiss\fcharset0 ArialMT;}
+{\colortbl;\red255\green255\blue255;\red26\green26\blue26;\red255\green255\blue255;\red16\green60\blue192;
+}
+\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\deftab720
+\pard\pardeftab720
+
+\f0\fs26 \cf2 \cb3 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 WEEK 10\
+\
+LANGUAGE\
+\'97 Graph theory vs Network Science (not hard and fast)\
+\'97 Vertices/nodes (N), edges (E)\
+\'97 Path (L), hops, cycles\
+\'97 Undirected, directed, DAG, Bipartite\
+\'97 Connectivity, cuts\
+\
+EXAMPLES (discuss types for each)\
+\'97 Explicit: roads\
+\'97 Implicit: recent cell phone calls\
+\'97 Web links\
+\'97 Power grid\
+\'97 Fiber optic cables\
+\'97 Physical proximity (disease transmission)\
+\'97 Communication\
+\'97 Systems biology pathway\
+\'97 Co-citation (show Boyack viz)\
+\'97 IMDB\
+\
+A BIT OF HISTORY\
+Pre-CS/Internet...\
+\'97 Difficult to gather (or uncover) data\
+\'97 Sociology (domain specific) and graph theory (not domain specific)\
+\'97 50\'92s Random Graphs (Paul Erdos)\
+\'97 60\'92s\'a0 Small world (Stanley Milgram)\
+\'a0 \'a0 \'a0...{\field{\*\fldinst{HYPERLINK "http://en.wikipedia.org/wiki/Milgram_experiment"}}{\fldrslt \cf4 \expnd0\expndtw0\kerning0
+\ul \ulc4 \outl0\strokewidth0 \strokec4 http://en.wikipedia.org/wiki/Milgram_experiment}}.\'a0 many letters\
+never arrived.\'a0 Average path length is 5.5-6.\'a0 Important people: \'93mr\
+jacobs\'94.\'a0 Tended to arrive at Geography, but difficult path to\
+individual. (Idea of 5 is traced to 1929)\
+\
+(FB has avg path length of 4.75, twitter 4.67)\
+\'97 90\'92s Wasserman book\
+\pard\pardeftab720
+{\field{\*\fldinst{HYPERLINK "http://www.amazon.com/Social-Network-Analysis-Applications-Structural/dp/0521387078/"}}{\fldrslt \cf4 \expnd0\expndtw0\kerning0
+\ul \ulc4 \outl0\strokewidth0 \strokec4 http://www.amazon.com/Social-Network-Analysis-Applications-Structural/dp/0521387078/}}\
+\
+More recent...\
+\'97 2000ish Barabasi \'97 Scale-free (follows power law)\
+long tail\
+fault tolerant (random attacks)\
+hubs\
+www, travel/airlines (and disease), protein interactions, social networks\
+scale-free: {\field{\*\fldinst{HYPERLINK "http://arxiv.org/pdf/cond-mat/0106096.pdf"}}{\fldrslt \cf4 \expnd0\expndtw0\kerning0
+\ul \ulc4 \outl0\strokewidth0 \strokec4 http://arxiv.org/pdf/cond-mat/0106096.pdf}}\
+attacks: {\field{\*\fldinst{HYPERLINK "http://www.nature.com/nature/journal/v406/n6794/abs/406378A0.html"}}{\fldrslt \cf4 \expnd0\expndtw0\kerning0
+\ul \ulc4 \outl0\strokewidth0 \strokec4 http://www.nature.com/nature/journal/v406/n6794/abs/406378A0.html}}\
+book: {\field{\*\fldinst{HYPERLINK "http://www.amazon.com/Linked-Everything-Connected-Business-Everyday/dp/0465085733"}}{\fldrslt \cf4 \expnd0\expndtw0\kerning0
+\ul \ulc4 \outl0\strokewidth0 \strokec4 http://www.amazon.com/Linked-Everything-Connected-Business-Everyday/dp/0465085733}}\
+\
+Today: NetSci Conference\
+\
+TOOLS\
+\'97 Analysis: Pajek/UCINet/Cytoscape, iGraph (R), NetworkX (Python)\
+\'97 Visualization: Gephi, Tom Sawyer (commercial), yFiles (commercial)\
+\'97 Algorithms/Machine Learning (e.g. NN): Boost (C++), GraphLab, GraphX (Spark)\
+\'97 Storgage: GraphDB \'97 Neo4j\
+\
+DATA / REPRESENTATION\
+Slides: Adjacency matrix (Vertex-Vertex, 0/1 or weight)\
+Storage: Sparse representation (V1:V2:nonzero-weight)\
+Code: Separation of data network and visual network\
+\
+DESCRIPTIVE STATISTICS\
+Size (N,E) (sum rows, columns in adj matrix)\
+degree (k), Avg degree is\'a0 2 * E/N\'a0 (<k>), *Degree distribution*\
+\'97 p(k) is probability that a node has degree k\
+\'97 log scale / power law (p(k) ~ k^-3)\
+Avg *path length*, Diameter (longest shortest path)\
+\'97 \'93Small World\'94 is when the L between two random nodes is proportional to log(N)\
+Density (ratio of edges to possible edges, 2e / (N*(N-1)))\
+avg *Clustering co-efficients*\
+e.g. for a node (2e / (k*(k-1))) where k is number of neighbors, and e\
+is number of connections between neighbors\
+e.g. 3 * number of triangles / number of connected triplets (Wasserman)\
+Connectivity, component (any path), weak, strong\
+centrality: {\field{\*\fldinst{HYPERLINK "http://en.wikipedia.org/wiki/Centrality"}}{\fldrslt \cf4 \expnd0\expndtw0\kerning0
+\ul \ulc4 \outl0\strokewidth0 \strokec4 http://en.wikipedia.org/wiki/Centrality}} (Can be used to\
+rank nodes.\'a0 Talk about collecting data.)\
+\'97 Degree Centrality\
+\'97 Closeness Centrality (1 / total distance)\
+\'97 Betweenness Centrality (how many shortest paths pass thru\'85internet\
+packet sending)\
+\'97 Pagerank / HITS\
+\
+ALGOS\
+clustering (i.e. community detection)\
+\'97 rank edges by betweenness and start removing edges to nodes in order\
+Pagerank\
+{\field{\*\fldinst{HYPERLINK "http://www.cs.princeton.edu/~chazelle/courses/BIB/pagerank.htm"}}{\fldrslt \cf4 \expnd0\expndtw0\kerning0
+\ul \ulc4 \outl0\strokewidth0 \strokec4 http://www.cs.princeton.edu/~chazelle/courses/BIB/pagerank.htm}}\
+PR(A) = (1-d) + d (PR(T1)/C(T1) + \'85 + d(PR(Tn)/C(Tn)))\
+\'97 C(X) is the vote\
+\'97 PR(x) is the importance of the vote\
+\'97 d is dampening\
+\'97 Why hard to do in Hadoop?\
+\
+RANDOM NETWORKS\
+Erdos-Renyi 1960\
+\'97 Connect a set of nodes with uniform probability (p)\
+\'97 Properties depend on (Np) around value <k>\
+\'97 Degree distribution is Poisson, giant component for large (N)\
+\'97 Does not create hubs, triangle closures, Clustering coefficient approaches 0\
+Watts-Strogatz 1998 Nature\
+\'97 every node has same number of edges in a ring lattice, random\
+rewiring with fixed probability\
+\'97 creates locally clustered graph\
+Barbersi \'97 Preferential Attachment\
+\'97 step 1: add new node with m edges\
+\'97 step 2: attachment: rich get richer: p_i = k_i / sum_j k_j\
+\'97 repeat\
+\'97 large and small clustering\
+\'97 ultra-small world (L proportional to log(log(N)))\
+\'97 robust to random attacks (actually increases avg shortest path)\
+\
+VISUALIZATION: LAYOUTS\'a0 (Graph Drawing)\
+Often cast as constrained optimization problem\
+\'97 common constraints: Gestalt principles (similar near, dissimilar far).\
+\'97\'97 {\field{\*\fldinst{HYPERLINK "http://bl.ocks.org/mbostock/4062045"}}{\fldrslt \cf4 \expnd0\expndtw0\kerning0
+\ul \ulc4 \outl0\strokewidth0 \strokec4 http://bl.ocks.org/mbostock/4062045}}\
+\'97 \'97 Drl / OpenOrd\
+{\field{\*\fldinst{HYPERLINK "http://wbpaley.com/brad/mapOfScience/scienceMapFullColorPrint2_lowRes_b.jpg"}}{\fldrslt \cf4 \expnd0\expndtw0\kerning0
+\ul \ulc4 \outl0\strokewidth0 \strokec4 http://wbpaley.com/brad/mapOfScience/scienceMapFullColorPrint2_lowRes_b.jpg}}\
+{\field{\*\fldinst{HYPERLINK "http://gigapan.com/gigapans/65469"}}{\fldrslt \cf4 \expnd0\expndtw0\kerning0
+\ul \ulc4 \outl0\strokewidth0 \strokec4 http://gigapan.com/gigapans/65469}} (netflix)\
+{\field{\*\fldinst{HYPERLINK "http://gigapan.com/gigapans/4304"}}{\fldrslt \cf4 \expnd0\expndtw0\kerning0
+\ul \ulc4 \outl0\strokewidth0 \strokec4 http://gigapan.com/gigapans/4304}} (wikivis)\
+\'97 more contrasts: anchors, containment, overall space (ingenuity)\
+Other way of displaying: arc/circular\
+({\field{\*\fldinst{HYPERLINK "http://mbostock.github.io/d3/talk/20111116/bundle.html"}}{\fldrslt \cf4 \expnd0\expndtw0\kerning0
+\ul \ulc4 \outl0\strokewidth0 \strokec4 http://mbostock.github.io/d3/talk/20111116/bundle.html}},\
+{\field{\*\fldinst{HYPERLINK "http://www.textarc.org/Alice.html"}}{\fldrslt \cf4 \expnd0\expndtw0\kerning0
+\ul \ulc4 \outl0\strokewidth0 \strokec4 http://www.textarc.org/Alice.html}}), geo\
+\
+COMPANIES\
+Palantir (photo), Quid, FB/LinkedIn}

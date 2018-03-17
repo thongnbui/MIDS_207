@@ -1,0 +1,500 @@
+  284  ls -ltr
+  285  ipython notebook
+  286  ls -ltr
+  287  ls -ltr
+  288  ls -ltr
+  289  fg
+  290  pwd
+  291  ls -ltr
+  292  emacs Tutorial.ipynb
+  293  ipython Tutorial.ipynb
+  294  emacs Tutorial.ipynb
+  295  ipython Tutorial.ipynb
+  296  emacs Tutorial.ipynb
+  297  ipython Tutorial.ipynb
+  298  pwd
+  299  ls -ltr
+  300  rm *~
+  301  mv Tutorial.ipynb.save Tutorial.ipynb
+  302  ipython notebook Tutorial.ipynb 
+  303  bg
+  304  cat > README.txt
+  305  fg
+  306  pwd
+  307  ls -ltr
+  308  cd github
+  309  ls -ltr
+  310  ls -ltr
+  311  git clone https://github.com/MIDS-W207/coursework
+  312  git clone https://github.com/chrismiller-mids/w205-project
+  313  git clone https://github.com/thongnbui/MIDS2016
+  314  ls -ltr
+  315  rm -r -ltr
+  316  rm -r MIDS2016/
+  317  rm -rf MIDS2016/
+  318  sudo git clone https://github.com/MIDS-W207/coursework
+  319  git clone https://github.com/chrismiller-mids/w205-project
+  320  git clone https://github.com/MIDS-W207/coursework.git
+  321  pwd
+  322  cd ..
+  323  ls -ltr
+  324  mkdir project1
+  325  cd project1
+  326  wget https://raw.githubusercontent.com/MIDS-W207/coursework/master/Projects/.ipynb_checkpoints/p1_master-checkpoint.ipynb?token=AHDhSC6oM-tXltIaOgw5lIGRuNOclNbYks5Yh-PlwA%3D%3D
+  327  curl -XGET https://raw.githubusercontent.com/MIDS-W207/coursework/master/Projects/.ipynb_checkpoints/p1_master-checkpoint.ipynb?token=AHDhSC6oM-tXltIaOgw5lIGRuNOclNbYks5Yh-PlwA%3D%3D
+  328  curl -XGET https://raw.githubusercontent.com/MIDS-W207/coursework/master/Projects/.ipynb_checkpoints/p1_master-checkpoint.ipynb?token=AHDhSC6oM-tXltIaOgw5lIGRuNOclNbYks5Yh-PlwA%3D%3D > p1_master-checkpoint.ipynb
+  329  ls -ltr
+  330  history | grep ipython
+  331  ipython notebook p1_master-checkpoint.ipynb 
+  332  pwd
+  333  ls -ltr
+  334  cd ..
+  335  ls -ltr
+  336  ipython notebook Tutorial.ipynb 
+  337  which jupyter
+  338  which jupyter 
+  339  jupyter notebook Tutorial.ipynb 
+  340  pwd
+  341  ls -ltr
+  342  cd project1
+  343  ls -ltr
+  344  ipython notebook p1_master-checkpoint.ipynb 
+  345  ipython notebook
+  346  ipython notebook
+  347  ipython notebook test.ipynb
+  348  cat > test.ipynb
+  349  ipython notebook test.ipynb
+  350  ls -ltr
+  351  rm test.ipynb
+  352  ipython notebook 
+  353  ipython
+  354  ls -ltr
+  355  more Untitled.ipynb 
+  356  pwd
+  357  cd ..
+  358  ls -ltr
+  359  ipython notebook
+  360  ipython notebook Tutorial.ipynb 
+  361  git clone https://github.com/MIDS-W207/coursework.git
+  362  git clone http://github.com/MIDS-W207/coursework.git
+  363  git clone https://thongnbui@github.com/MIDS-W207/coursework.git
+  364  git clone https://thongnbui:thongbui1@github.com/MIDS-W207/coursework.git
+  365  git clone https://github.com/thongnbui/MIDS2016
+  366  pwd
+  367  ls -ltr
+  368  pwd
+  369  cd 
+  370  ls -ltr
+  371  cd Desktop/
+  372  ls -ltr
+  373  rm *png
+  374  cd MIDS
+  375  ls -ltr
+  376  cd github
+  377  ls -ltr
+  378  cd ../205_storage_retrieval/
+  379  ls -ltr
+  380  cd github
+  381  ls -ltr
+  382  ls -a
+  383  more .git
+  384  find .git
+  385  pwd
+  386  ls -ltr
+  387  more README.md 
+  388  mv w205-project w205-project.old
+  389  git clone https://github.com/chrismiller-mids/w205-project
+  390  pwd
+  391  cd ../..
+  392  ls -ltr
+  393  cd MIDS
+  394  pwd
+  395  ls -ltr
+  396  cd 207
+  397  ls -ltr
+  398  curl -u <token>:x-oauth-basic https://api.github.com/user
+  399  git -version
+  400  git --version
+  401  git remote -v
+  402  pwd
+  403  git remote -v
+  404  git clone https://thongnbui:thongbui1@github.com/MIDS-W207/coursework.git
+  405  git clone https://thongnbui:a31de179dd4a57f7b7a3d245e2c9f14900c8b630@github.com/MIDS-W207/coursework.git
+  406  pwd
+  407  ls -ltr
+  408  cd coursework
+  409  ls -ltr
+  410  cd Week1
+  411  ls -ltr
+  412  pwd
+  413  cd ../../
+  414  ls -ltr
+  415  cd MIDS2016
+  416  ls -lt
+  417  pwd
+  418  cd ../..
+  419  cd 209
+  420  ls -ltr
+  421  mv ~/Downloads/Assignment1.pdf .
+  422  ls -ltr
+  423  mv Assignment1.pdf Assignment1_ThongBui_209.pd
+  424  mv Assignment1_ThongBui_209.pd Assignment1_ThongBui_209.pd
+  425  mv Assignment1_ThongBui_209.pd Assignment1_ThongBui_209.pdf
+  426  ipython
+  427  pwd
+  428  cd ..
+  429  ls -ltr
+  430  cd
+  431  ls -ltr
+  432  cd UCB
+  433  ls -ltr
+  434  cd python_course/
+  435  ls -ltr
+  436  ipython notebook
+  437  bg
+  438  ls -ltr ~/Downloads/
+  439  ls -ltr
+  440  ls -ltr ~/Downloads/
+  441  ls -ltr ~/Downloads/
+  442  ls -ltr ~/Downloads/note*
+  443  mv ~/Downloads/note* .
+  444  fg
+  445  cd ..
+  446  tar cvf 205_storage_retrieval.tar 205_storage_retrieval
+  447  ls -ltr
+  448  mv 205_storage_retrieval 205_storage_retrieval.old
+  449  tar xvf 205_storage_retrieval.tar
+  450  ls -ltr
+  451  rm -rf 205_storage_retrieval
+  452  rm -rf 205_storage_retrieval.old
+  453  sudo rm -rf 205_storage_retrieval.old
+  454  ls -ltr
+  455  ls -ltr github
+  456  find github
+  457  pwd
+  458  ls -ltr
+  459  df -k
+  460  zip 205_storage_retrieval.tar 
+  461  ls -ltr
+  462  tar xvf 205_storage_retrieval.tar 
+  463  ls -ltr
+  464  tar -cvzf 205_storage_retrieval.tar.gz 205_storage_retrieval
+  465  ls -ltr
+  466  rm -r *tar
+  467  rm -rf 205_storage_retrieval
+  468  df -k
+  469  ls -ltr
+  470  cd ../..
+  471  df -k
+  472  du -hs *
+  473  du -s * | sort -n
+  474  cd Desktop/
+  475  du -s * | sort -n
+  476  cd MIDS/
+  477  du -s * | sort -n
+  478  tar -xvzf 205_storage_retrieval.tar.gz 
+  479  cd 205*
+  480  du -s * | sort -n
+  481  du -s github/* | sort -n
+  482  du -s github/w205-fall-16-labs-exercises/* | sort -n
+  483  rm -rf github/w205-fall-16-labs-exercises/data
+  484  df -k
+  485  cd ../..
+  486  cd MIDS/
+  487  df -k
+  488  du -s github/w205-fall-16-labs-exercises/* | sort -n
+  489  du -s * | sort -n
+  490  ls -ltr
+  491  rm *gz
+  492  ls -ltr
+  493  ls -ltr
+  494  top
+  495  pwd
+  496  cd 207
+  497  ls -ltr
+  498  history | grep ipython
+  499  ipython notebook Tutorial.ipynb 
+  500  pwd
+  501  cd ~/Desktop/
+  502  ls -ltr
+  503  cd MIDS/
+  504  ls -ltr
+  505  cd 207
+  506  ls -ltr
+  507  find .
+  508  ls -ltr
+  509  pwd
+  510  rm -r MIDS2016
+  511  rm -rf MIDS2016
+  512  ls -ltr
+  513  find .
+  514  rm -r github
+  515  ls -ltr
+  516  cd coursework/
+  517  ls -ltr
+  518  git pull
+  519  git update
+  520  pwd
+  521  ls -ltr
+  522  cd Projects/
+  523  ls -ltr
+  524  history | grep ipython
+  525  pwd
+  526  cd ..
+  527  ls -ltr
+  528  pwd
+  529  cd ..
+  530  ls -ltr
+  531  find coursework/
+  532  ls -ltr `find coursework/`
+  533  pwd
+  534  cd coursework/
+  535  ls -ltr
+  536  cd Week2
+  537  ls -ltr
+  538  pwd
+  539  cd ..
+  540  ipython notebood
+  541  ipython notebook
+  542  ipython notebook
+  543  ipython notebook
+  544  ipython notebook
+  545  open -a Google\ Chrome --args --allow-file-access-from-files
+  546  open -a Google\ Chrome --args --allow-file-access-from-files
+  547  python
+  548  pwd
+  549  ls -ltr
+  550  cd ..
+  551  ipython notebook
+  552  bg
+  553  ls -ltr
+  554  cd Week6
+  555  ls -ltr
+  556  date
+  557  cd ../Week5
+  558  ls -ltr
+  559  date
+  560  ls -ltr
+  561  cd ..
+  562  ls -ltr
+  563  pwd
+  564  grep -i theano */*b
+  565  ls -ltr
+  566  ls -ltr Week7/
+  567  pip install seaborn
+  568  python
+  569  grep CountVectorizer */*b
+  570  fg
+  571  ipython notebook
+  572  bg
+  573  ls -ltr ~/Library
+  574  ls -ltr ~/Library
+  575  ls -ltr ~/
+  576  ls -ltr ~/Library
+  577  ls -ltr ~/ | grep Libra
+  578  chmod +r ~/Libray
+  579  chmod +r ~/Library
+  580  ls -ltr ~/ | grep Libra
+  581  ls -ltr ~/ 
+  582  pwd
+  583  pwd
+  584  ls -ltr
+  585  grep import Projects/*b
+  586  ps -aef | grep ipython
+  587  ps -aef | grep ipython | awk {'kill ' $2}
+  588  ps -aef | grep ipython | awk {print 'kill ' $2}
+  589  ps -aef | grep ipython | awk {print 'kill ' $2}
+  590  ps -aef | grep ipython | awk '{print "kill " $2}'
+  591  kill 3214
+  592  kill 3215
+  593  kill 1433
+  594  kill 1434
+  595  pwd
+  596  ls -ltr
+  597  ipython notebook
+  598  bg
+  599  rm ~/Desktop/*png
+  600  pwd
+  601  mkdir doc/images
+  602  mkdir -p doc/images
+  603  cd doc/images
+  604  wget https://raw.githubusercontent.com/lisa-lab/DeepLearningTutorials/master/doc/images/3wolfmoon.jpg
+  605  curl -0 https://raw.githubusercontent.com/lisa-lab/DeepLearningTutorials/master/doc/images/3wolfmoon.jpg
+  606  curl -0 https://raw.githubusercontent.com/lisa-lab/DeepLearningTutorials/master/doc/images/3wolfmoon.jpg > 3wolfmoon.jpg
+  607  ls -ltr
+  608  ls -ltr
+  609  pwd
+  610  cd ../
+  611  ls -ltr
+  612  cd ..
+  613  ls -ltr
+  614  ls -ltr Week7
+  615  mv doc Week7
+  616  find Week7
+  617  mv ~/Downloads/3wolfmoon.jpg .
+  618  pwd
+  619  grep arange */*b
+  620  grep zero */*b
+  621  grep zip */*b
+  622  which curl jq tee
+  623  rm ~/Desktop/*png
+  624  rm ~/Desktop/*png
+  625  fg
+  626  ipython notebook
+  627  bg
+  628  python
+  629  ls /usr/bin/ipython*
+  630  which ipython
+  631  ls -ltr /Users/thongbui/anaconda3/bin/ipython
+  632  ls -ltr /Users/thongbui/anaconda3/bin/ipython*
+  633  diff /Users/thongbui/anaconda3/bin/ipython /Users/thongbui/anaconda3/bin/ipython3
+  634  conda -version
+  635  conda -V
+  636  ls -ltr /opt
+  637  ipython -help
+  638  ls -ltr ~/.ipython/
+  639  ls -ltr ~/.ipython/profile_default/
+  640  python
+  641  python
+  642  which ipython
+  643  more /Users/thongbui/anaconda3/bin/ipython
+  644  which python
+  645  which python2
+  646  which virtualenv
+  647  which pyenv
+  648  which pip2
+  649  python2 -m IPython
+  650  pip2 install ipython
+  651  fg
+  652  python2 -m IPython
+  653  python2 -m IPython notebook
+  654  pip2 install ipython[all]
+  655  python -version
+  656  which python
+  657  port version
+  658  port version
+  659  ls -ltr /opt
+  660  ls -ltr /opt/local/
+  661  which ipython
+  662  cd /Users/thongbui/anaconda3/bin/ipython
+  663  cd /Users/thongbui/anaconda3/bin/
+  664  ls -ltr
+  665  which ipython2
+  666  which conda
+  667  conda -version
+  668  conda -V
+  669  conda create -n py27 python=2.7
+  670* ipython -hel
+  671  source activate py27
+  672  conda install notebook ipykernel
+  673  ipython notebook
+  674  pwd
+  675  cd
+  676  pwd
+  677  cd ~/Desktop/MIDS/207
+  678  ls -ltr
+  679  cd coursework/
+  680  ipython notebook
+  681  bg
+  682  which pip
+  683  pip install matplotlib
+  684  pip install sklearn
+  685  pip install scipy
+  686* 
+  687  pip install scipy
+  688  ipython notebook
+  689  ps -aef | grep ipyth
+  690  ps -aef | grep ipython | awk '{print "kill " $2}'
+  691  ps -aef | grep -i ipython 
+  692  ipython notebook
+  693  bg
+  694  which pip
+  695  which pip
+  696  pip install sklearn
+  697  sklearn.version
+  698  python
+  699  which sklearn
+  700  python
+  701  history
+  702  pip uninstall sklearn
+  703  conda update sklearn
+  704  conda install sklearn
+  705  pip install -U numpy scipy scikit-learn
+  706  pip install -U sklearn
+  707  fg
+  708  ipython notebook
+  709      from sklearn.model_selection import train_test_split
+  710  conda create -n py27 python=2.7 ipykernel
+  711  conda create -n py36 python=3.6 ipykernel
+  712  ipython notebook
+  713  conda create -n py36 python=3.6
+  714  source activate py36
+  715  conda install notebook ipykernel
+  716  ipython kernel install --user
+  717  source activate py27
+  718  ipython kernel install --user
+  719  source activate py36
+  720  ipython kernel install --user
+  721  ipython kernel install --user
+  722  ipython notebook
+  723  bg
+  724  which python
+  725  which ipython
+  726  which ipython2
+  727  which pip
+  728  pip install numpy
+  729  pip install sklearn
+  730  pip install scipy sklearn
+  731  pip install sklearn
+  732  ls -ltr ~/.*
+  733  ls -a ~/
+  734  more .bash_historyDesktop
+  735  more ~/.bash_profile
+  736  virtualenv2
+  737  alias
+  738  env | grep virtu
+  739  $ cd /opt/local/Library/Frameworks/Python.framework/Versions/2.7/bin
+  740  cd /opt/local/Library/Frameworks/Python.framework/Versions/2.7/bin
+  741  which python
+  742  cd /Users/thongbui/anaconda3/envs/py36/bin/python
+  743  cd /Users/thongbui/anaconda3/envs
+  744  ls -ltr
+  745  cd py36
+  746  ls -ltr
+  747  cd bin
+  748  ls -ltr
+  749  sudo ./ipython kernelspec install-self
+  750  wd
+  751  pwd
+  752  cd ../../py27/bin
+  753  sudo ./ipython kernelspec install-self
+  754  pwd
+  755  cd
+  756  pwd
+  757  ls -ltr
+  758  cd Desktop/MIDS/
+  759  cd 207
+  760  ls -ltr
+  761  cd coursework/
+  762  ls -ltr
+  763  cd Projects/
+  764  ls -ltr
+  765  cp thong_bui_p1.ipynb thong_bui_p1_3.ipynb 
+  766  emacs thong_bui_p1_3.ipynb
+  767  ls -a
+  768  ipython notebook
+  769  bg
+  770  ls -ltr
+  771  which pip
+  772  pip install scipy numpy matplotlib
+  773  pip install sklearn
+  774  pwd
+  775  pwd
+  776  ls -ltr
+  777  cp firstname_lastname_p2.ipynb firstname_lastname_p2.ipynb.bkup
+  778  pwd
+  779  which python
+  780  pwd
+  781  pwd
+  782  history | tail
+  783  history > x
